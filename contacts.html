@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kontaktai</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="#">Mokomes</a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="index.html">Pagrindinis</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="contacts.html">Kontaktai</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="gallery.html">Galerija</a>
+              </li>
+            </ul>
+            <form class="d-flex">
+              <input class="form-control me-2" type="search" placeholder="Iveskite zodi" aria-label="Search">
+              <button class="btn btn-outline-success" type="submit">Paieska</button>
+            </form>
+          </div>
+        </div>
+      </nav>
+      <center><h1>Kontaktai</h1></center>
+    
+     <div class="row">
+        <div class="col-12 col-sm-6">
+            <form class="mt-3">
+                <div class="mb-3">
+                  <label for="exampleInputEmail1" class="form-label">Jusu El.Pastas</label>
+                  <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" required>
+                </div>
+                <div class="mb-3">
+                  <label for="name" class="form-label">Jusu Vardas</label>
+                  <input type="tel" class="form-control" id="name" required>
+                </div>
+                <div class="mb-3">
+                  <label for="name" class="form-label">Jusu Pavarde</label>
+                  <input type="tel" class="form-control" id="name" required>
+                </div>
+                <label for="inputPassword5">Slaptazodis</label>
+                <input type="password" id="inputPassword5" class="form-control" aria-describedby="passwordHelpBlock">
+                <small id="passwordHelpBlock" class="form-text text-muted">
+                Slaptazodis turi sudaryti 8-20 raidziu,viena is ju turi buti didzioji ir turi buti skaicius
+                </small>
+                <select class="form-select mb-3" aria-label="Default select example">
+                    <option selected>Pasirinkite miesta</option>
+                    <option value="1">Kaunas</option>
+                    <option value="2">Vilnius</option>
+                    <option value="3">Klaipeda</option>
+                  </select>
+                  <select class="form-select mb-3" aria-label="Default select example">
+                    <option selected>Jusu lytis</option>
+                    <option value="1">Vyras</option>
+                    <option value="2">Moteris</option>
+                  </select>
+                  <div class="form-check mb-3">
+                    <input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault1">
+                    <label class="form-check-label" for="flexRadioDefault1">
+                      Noriu gauti naujienas
+                    </label>
+                  </div>
+
+                  <button type="submit" class="btn btn-success">Siusti</button>
+          </form>
+    </div>
+    <div class="col-sm-6  d-flex align-items-center justify-content-center">
+    <img src="./img/kontaktai.png" class="rounded d-none d-sm-block foto " alt="kontaktai_logo">
+   </div>
+</div>
+</div>
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
+         integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
+          <script src="script.js"></script>
+      </footer>
+</body>
+</html>

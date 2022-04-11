@@ -1,0 +1,11 @@
+* {
+  box-sizing: border-box;
+/*   text-align: center; */
+/*   padding: 0 */
+}
+
+.container {
+  padding-right: 0;
+  padding-left: 0;
+  height: 100vh;
+}
